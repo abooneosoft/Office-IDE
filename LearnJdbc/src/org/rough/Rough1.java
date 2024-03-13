@@ -7,7 +7,7 @@ public class Rough1 {
 		
 	}
 
-	m2(){
+	void m2(){
 
 		System.out.println("This changes is done in GITHUB for testing");
 	}
