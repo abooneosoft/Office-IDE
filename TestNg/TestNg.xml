@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" parallel="classes" thread-count="2">
+
+	<test name="cross browser">
+		<classes>
+			<class name="org.parallel.Google"></class>
+			<class name="org.parallel.MsEdge"></class>		
+		</classes>
+
+	</test>
+
+</suite>
+
+
+
+<!-- <class name="suite.Browser"></class> to deactivate the line Ctrl+Shift+? 
+	<class name="org.test.DependencyManagementEg" /> -->
+	
+		<!-- 	-->
+		
+	<!-- <parameter name= "Lilly" value= "Favourite one"/>
+	<parameter name= "Rose" value= "Beautiful one"/>
+	<parameter name= "Sunflower" value= "Attractive one">
+	
+	</parameter>
+	<groups>
+			<run>
+				<exclude name="color"/>
+			</run>
+		</groups>  -->

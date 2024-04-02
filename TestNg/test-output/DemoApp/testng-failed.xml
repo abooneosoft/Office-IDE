@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoApp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeApp(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="org.demo.OrangeBase">
+        <methods>
+          <include name="launchOrange" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.demo.OrangeBase -->
+    </classes>
+  </test> <!-- OrangeApp(failed) -->
+</suite> <!-- Failed suite [DemoApp] -->

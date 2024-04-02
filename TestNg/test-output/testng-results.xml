@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-26T09:28:26Z" name="Default suite" finished-at="2024-03-26T09:28:26Z" duration-ms="82">
+    <groups>
+    </groups>
+    <test started-at="2024-03-26T09:28:26Z" name="Default test" finished-at="2024-03-26T09:28:26Z" duration-ms="82">
+      <class name="org.test.Assertionss">
+        <test-method signature="checkAssert1()[pri:0, instance:org.test.Assertionss@455b6df1]" started-at="2024-03-26T09:28:26Z" name="checkAssert1" finished-at="2024-03-26T09:28:26Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAssert1 -->
+        <test-method signature="checkAssert2()[pri:0, instance:org.test.Assertionss@455b6df1]" started-at="2024-03-26T09:28:26Z" name="checkAssert2" finished-at="2024-03-26T09:28:26Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAssert2 -->
+      </class> <!-- org.test.Assertionss -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="cross browser(failed)">
+    <classes>
+      <class name="org.parallel.Google">
+        <methods>
+          <include name="googleBrowser"/>
+        </methods>
+      </class> <!-- org.parallel.Google -->
+      <class name="org.parallel.MsEdge">
+        <methods>
+          <include name="msEdgeBrowser"/>
+        </methods>
+      </class> <!-- org.parallel.MsEdge -->
+    </classes>
+  </test> <!-- cross browser(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
