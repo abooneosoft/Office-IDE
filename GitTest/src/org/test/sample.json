@@ -1,9 +1,0 @@
-{
-"name":"Ravi",
-"age":30,
-"status":true,
-"address":{"city":"Chennai",
-"state":"Tamil Nadu",
-"country":"India"},
-"courses":["Java","Python","Selenium"]
-}	
